@@ -13,7 +13,7 @@ sr.reveal('.showcase', {
   });
 
   sr.reveal('.news-cards-one', { 
-    viewFactor: 0.5
+     viewFactor: 0.1
   });
 
   sr.reveal('.cards-banner-one', { 
@@ -21,7 +21,7 @@ sr.reveal('.showcase', {
   });
 
   sr.reveal('.news-cards-two', { 
-    viewFactor: 0.5
+    viewFactor: 0.1
   });
 
   sr.reveal('.cards-banner-two', { 
