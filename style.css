@@ -341,7 +341,7 @@ hr{
         margin-right:40px;
     }
 
-    .news-cards{
+    .news-cards-one,.news-cards-two{
 
             grid-template-columns: repeat(2,1fr);
 
@@ -365,13 +365,13 @@ hr{
 
 @media (max-width : 500px){
 
-    .news-cards{
+    .news-cards-one,.news-cards-two{
 
         grid-template-columns: 1fr;
 
 }
 
-.news-cards img{
+.news-cards-one img,.news-cards-two img{
 
     height: 250px;
 }
