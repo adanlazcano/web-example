@@ -6,26 +6,28 @@ menuBtn.addEventListener('click', () => {
 
 });
 
-window.sr = ScrollReveal({ reset: true });
+// window.sr = ScrollReveal({ reset: true });
 
+window.sr = ScrollReveal();
+// viewFactor: 0.1
 sr.reveal('.showcase', { 
-    viewFactor: 0.5
+    delay:500
   });
 
   sr.reveal('.news-cards-one', { 
-     viewFactor: 0.1
+    delay:500
   });
 
   sr.reveal('.cards-banner-one', { 
-    viewFactor: 0.5
+    delay:500
   });
 
   sr.reveal('.news-cards-two', { 
-    viewFactor: 0.1
+    delay:500
   });
 
   sr.reveal('.cards-banner-two', { 
-    viewFactor: 0.5
+    delay:500
   });
 
 
