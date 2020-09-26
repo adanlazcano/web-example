@@ -312,7 +312,7 @@ hr{
         top:0;
         left:-250px;
         background: #2f3640;
-        height: 100%;
+        height:auto;
         padding:30px;
         opacity: .9;
         /* transform: translateX(-400px); */
