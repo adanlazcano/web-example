@@ -37,7 +37,7 @@ ul{
     position:absolute;
     top:15px;
     /* left:220px; */
-    right: 30px;
+    right: 40px;
     z-index:2;
     font-weight: bolder;
     /* font-size: 1.5rem; */
@@ -363,7 +363,21 @@ hr{
 
 }
 
+@media (max-width : 640px){
+
+    .menu-btn{
+
+        right: 30px;
+    }
+
+}
+
 @media (max-width : 500px){
+
+    .menu-btn{
+
+        right: 30px;
+    }
 
     .news-cards-one,.news-cards-two{
 
@@ -386,6 +400,13 @@ hr{
 
     grid-template-columns: 1fr;
  }
+ 
+}
 
+@media (max-width : 380px){
 
+    .menu-btn{
+
+        right: 20px;
+    }
 }
